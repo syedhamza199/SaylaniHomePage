@@ -57,13 +57,13 @@
   background-color: #f4f9f4;
   background-attachment: fixed;
 }
-button.active,.menus:hover{
-  padding: 5px 10px;
-  width: auto;
-  height: auto;
-  border-radius: 25px;
-  background-color: royalblue;
+
+ul>li:hover {
+    color: white!important;
+    border-radius: 30px;
+    background-color: #316DC3;
 }
+
 .menu{
   position: absolute;
   right: 150px;
@@ -166,4 +166,13 @@ p{
   padding-top: 10px;
   padding-left: 100px;
   background-color: royalblue;
+}
+.active {
+    border-radius: 35px;
+    background-color: #316DC3;
+    color: white;
+}
+
+.nav {
+    font-size: 16px;
 }
